@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block content %}
+    
+    <div class="jumbotron">
+        <div class="row splash">
+            <div class="col-lg-7">
+                <p><b>This is the best thing EVER!</b>
+                <div social_icons>
+                   <a href="#"><img src="{% static "link_spyder/img/twitter.png" %}"/></a>
+                   <a href="#"><img src="{% static "link_spyder/img/facebook.png" %}"/></a>
+                   <a href="#"><img src="{% static "link_spyder/img/rss.png" %}"/></a>
+                </div>
+                </p>
+                
+                <p>It's totally FREE, so what are you waiting for? Just hand over your credit card number and get scraping TODAY!</p>
+                
+                <p><br><a class="btn btn-lg btn-success" href="link_spyder/" role="button">TRY Link Sypder right now FOR FREE!&nbsp;&nbsp;&nbsp;CLICK NOW!</a></p>
+            </div>
+        
+            <div class="col-lg-4">
+                <div class="logo">
+                    <br>
+                    <img src="{% static "link_spyder/img/cdsip_with_ipad_2.png" %} "/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row marketing">
+        <div class="col-lg-4">
+            <a class="btn btn-default" href="#" role="button">
+                <h2>Great Product!</h2>
+                <img src="{% static "link_spyder/img/a7.png" %}"/>
+                <p><br><br>Winner of the Greatest <br>
+                   New Product Award 2014</p>
+            </a>
+        </div>
+
+        <div class="col-lg-4">
+            <a class="btn btn-default" href="#" role="button">
+                <h2>Super Support</h2>
+                <img src="{% static "link_spyder/img/s1.png" %}"/>
+                <p><br>Our Supper Support Team provides 24/7 <br>
+                application support for all our customers.</p>
+            </a>
+        </div>
+        
+        <div class="col-lg-4">
+            <a class="btn btn-default pull-right" href="#" role="button">
+                <h2>Sign Up Today!</h2>
+                <img src="{% static "link_spyder/img/f1.png" %}"/>
+                <p><br>It's totally FREE, so what are you waiting<br>
+                   for? Just hand over your credit card ...</p>
+            </a>
+        </div>
+   </div>
+
+{% endblock %}
