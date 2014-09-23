@@ -14,8 +14,6 @@ Easy Gist - It's Gist Amazing!
 
 ----------
 
-![Picture](https://www.dropbox.com/s/iw93nkmcn0x0utu/ls_1.png?dl=0)
+![ls_1](https://cloud.githubusercontent.com/assets/2049888/4366350/32a49d96-42bd-11e4-851f-17913bbfb4e3.png)
 
-![image](https://cloud.githubusercontent.com/assets/2049888/2897413/edc067f0-d57f-11e3-8eaf-738496cd498e.png)
-
-![image](https://cloud.githubusercontent.com/assets/2049888/2897399/a6628730-d57f-11e3-9eee-3f053da348bb.png)
+![ls_2](https://cloud.githubusercontent.com/assets/2049888/4366352/387789a4-42bd-11e4-8e89-9d1960c5ffc9.png)
