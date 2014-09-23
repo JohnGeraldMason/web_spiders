@@ -13,6 +13,27 @@ Link Spyder Project
 -------------------
 - Django webserver that reads link data (populated via webscraper) from a local Oracle database.
 
+    $ echo '{"foo":"bar"}' | json
+    {
+      "foo": "bar"
+    }
+
+    $ echo '{"foo":"bar"}' | json foo
+    bar
+
+    $ echo '{"fred":{"age":42}}' | json fred.age    # '.' for property access
+    42
+
+    $ echo '{"age":10}' | json -e 'this.age++'
+    {
+      "age": 11
+    }
+
+    # `json -ga` (g == group, a == array) for streaming mode
+    $ echo '{"latency":32,"req":"POST /widgets"}
+    {"latency":10,"req":"GET /ping"}
+    ' | json -gac 'this.latency > 10' req
+    POST /widgets
 
 Link Visualizor
 ---------------
@@ -29,7 +50,6 @@ Link Visualizor
     "children": [{"name": "About", "size": "50"},
                  {"name": "Admissions", "size": "50"},
                  {"name": "Academics", "size": "50"},
-                 
                  {"name": "Contact Us", "size": "50"}, {"name": "Current Students", "size": "50"},
                  {"name": "Faculty & Staff", "size": "50"}]}
 
