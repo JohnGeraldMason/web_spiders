@@ -29,4 +29,4 @@ Link Visualizer
   ![link_nodes](https://cloud.githubusercontent.com/assets/2049888/4366866/9bc95cd0-42c7-11e4-88a3-e272e4d5335a.png)
 
 
-The centre node represents the url that was scraped, http://www.dal.ca/dept/its.html. The surrounding nodes represent the links scraped. Hovering the mouse pointer over a node will produce a popup displaying the link "name".
+The centre node represents the url that was scraped, http://www.dal.ca/dept/its.html. The surrounding nodes represent the links scraped. Hovering the mouse pointer over a node will produce a popup displaying the link "name". Clicking and dragging a node results in a reshuffling of nodes.
