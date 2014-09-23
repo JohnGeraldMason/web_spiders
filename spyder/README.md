@@ -14,7 +14,7 @@ Easy Gist - It's Gist Amazing!
 
 ----------
 
-![Picture](https://www.dropbox.com/s/iw93nkmcn0x0utu/ls_1.png?dl=0)
+![image](https://www.dropbox.com/s/iw93nkmcn0x0utu/ls_1.png?dl=0)
 
 ![image](https://cloud.githubusercontent.com/assets/2049888/2897413/edc067f0-d57f-11e3-8eaf-738496cd498e.png)
 
