@@ -6,7 +6,7 @@ Practice/proof of concept code that includes:
 Spyder
 ------
 - A Scrapy web scraper that finds links from a webpage, and then saves the link data to an Oracle backend.
-  - Additionally, Link Spyder saves link data as a local json file (data.json).
+  - Additionally, Spyder saves link data as a local json file (data.json).
 
 
 Link Spyder Project
