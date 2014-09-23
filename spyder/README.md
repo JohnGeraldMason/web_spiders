@@ -1,18 +1,10 @@
 Link Spyder
 ===========
 
-- A Scrapy web application that scrapes links from a webpage and saves the data to an Oracle backend.  
-- Additionally, Link Spyder saves link data as a local json file (data.json). This file can be used to visualize link data.
-
-
-----------
-
-
-Python script that scrapes links from a list of hardcoded urls, saving the data to a Oracle
+Python script that uses Scrapy to find links from a list of hardcoded urls, saving the data to an Oracle
 database via Django's Object-relational mapper (ORM), and a local .json file.
 
-Additionally, this code generates json representation of the data, saving it 
-to a data.json.
+Additionally, this code generates json representation of the data, saving it to a data.json.
 
 Example:
 
