@@ -23,11 +23,10 @@ Link Visualizer
   - This implementation uses (D9) CodeFlower.js: http://redotheweb.com/CodeFlower/
   
 - Example:
-     This json file for '''http://www.dal.ca/dept/its.htm''':
 
-    is visualized as the screenshot below:
+    The json file from scraping '''http://www.dal.ca/dept/its.htm''', is visualized as the screenshot below:
 
   ![link_nodes](https://cloud.githubusercontent.com/assets/2049888/4366866/9bc95cd0-42c7-11e4-88a3-e272e4d5335a.png)
 
 
-The centre node represents the url that was scraped,    http://www.dal.ca/dept/its.html. The surrounding nodes represent the links scraped. Hovering the mouse pointer over a will produce a popup displaying the link "name".
+The centre node represents the url that was scraped, http://www.dal.ca/dept/its.html. The surrounding nodes represent the links scraped. Hovering the mouse pointer over a node will produce a popup displaying the link "name".
