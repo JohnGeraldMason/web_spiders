@@ -21,3 +21,10 @@ Example:
      
      
 NOTE: For information on Scrapy see: http://doc.scrapy.org/
+
+
+Oracle database after population from link_spyder script:
+
+![db](https://cloud.githubusercontent.com/assets/2049888/4366432/d46ac000-42be-11e4-95a0-dc93d07ded92.png)
+
+Note that the intial empty database is created via Django (> python manage.py syncdb)
