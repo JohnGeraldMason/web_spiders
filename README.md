@@ -29,7 +29,6 @@ Link Visualizor
     "children": [{"name": "About", "size": "50"},
                  {"name": "Admissions", "size": "50"},
                  {"name": "Academics", "size": "50"},
-                 . . .
                  
                  {"name": "Contact Us", "size": "50"}, {"name": "Current Students", "size": "50"},
                  {"name": "Faculty & Staff", "size": "50"}]}
