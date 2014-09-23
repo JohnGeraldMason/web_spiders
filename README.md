@@ -24,7 +24,7 @@ Link Visualizor
   
 - Example:
      This json file:
-'''json
+'''
 {"size": "20", "name": "http://www.dal.ca/dept/its.html",
     "children": [{"name": "About", "size": "50"},
                  {"name": "Admissions", "size": "50"},
