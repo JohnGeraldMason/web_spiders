@@ -1,15 +1,8 @@
 Link Spyder
 ===========
 
-
-
-
-Easy Gist - It's Gist Amazing!
-==============================
-
-
-
-- A Django web application that allows users to create, list, and delete (one or all) Gists in their Github site
+- A Scrapy web application that scrapes links from a webpage and saves the data to an Oracle backend.  
+- Additionally, Link Spyder saves link data as a local json file (data.json). This file can be used to visualize link data.
 
 
 ----------
