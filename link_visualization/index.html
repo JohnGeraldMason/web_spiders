@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap core CSS -->
+    <link type="text/css" rel="stylesheet" href="static/css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="static/css/style.css"/>
+    <title>Visualization of data.json file</title>
+    
+    <style type="text/css">
+      circle.node {
+        cursor: pointer;
+        stroke: #000;
+        stroke-width: .5px;
+      }
+
+      .nodetext {
+        fill: #252929;
+        font-weight: bold;
+        text-shadow: 0 0 0.2em white;
+      }
+      
+      line.link {
+        fill: none;
+        stroke: #9ecae1;
+        stroke-width: 1.5px;
+      }
+    </style>    
+  </head>
+
+  <body>
+    <div class="container">
+      
+      <div class="header">
+        <h3 class="text-muted">Link Visualizer</h3>    
+        <div class="jumbotron">
+          <h3>Visualization of data.json file using codeflower.js with d3.js</h3>
+          <br>
+          <div class="row">
+            <div class="col-lg-4">
+              <div id="visualization" ></div>
+            </div>
+            <div class="col-lg-8">
+              <p>
+                The surrounding nodes represent the links scraped. Hovering the mouse
+                pointer over a node will produce a popup displaying the link "name".
+                Clicking and dragging a node results in a reshuffling of nodes.
+              </p>
+              <br>
+              <p>
+                http://redotheweb.com/CodeFlower/
+                http://d3js.org/  
+              </p>              
+              <br>
+              <p><a class="btn btn-lg btn-success" href="index.html" role="button">Animate!</a></p>
+            </div> 
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer">
+        <p>Link Visualizer</p>
+      </div>
+    </div>
+    
+    <script type="text/javascript" src="static/js/d3/d3.js"></script>
+    <script type="text/javascript" src="static/js/d3/d3.geom.js"></script>
+    <script type="text/javascript" src="static/js/d3/d3.layout.js"></script>
+    <script type="text/javascript" src="static/js/CodeFlower.js"></script>
+    <script type="text/javascript" src="static/js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+      var currentCodeFlower;
+      var createCodeFlower = function(json) {
+        w = 300;
+        h = 300;
+        // create a new CodeFlower
+        currentCodeFlower = new CodeFlower("#visualization", w, h).update(json);
+      };
+      d3.json('data.json', createCodeFlower);
+    </script>
+  </body>
+</html>
