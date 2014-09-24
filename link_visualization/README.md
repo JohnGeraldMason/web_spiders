@@ -1,4 +1,4 @@
-*In progress - No code to post for this yet - working on it :)*
+##Link Visualizor
 
 
 - An html/javascript Visualization of the scraped data contained in data.json (saved by Spyder - above). 
