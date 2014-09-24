@@ -6,7 +6,7 @@
   
 ####Example:
 
-    The json file from scraping '''http://www.dal.ca/dept/its.htm''', is visualized as the screenshot below:
+    The json file from scraping '''http://www.dal.ca/faculty/computerscience.htm''', is visualized as the screenshot below:
 
   ![link_nodes](https://cloud.githubusercontent.com/assets/2049888/4366866/9bc95cd0-42c7-11e4-88a3-e272e4d5335a.png)
 
