@@ -4,7 +4,7 @@
 - An html/javascript Visualization of the scraped data contained in data.json (saved by Spyder - above). 
   - This implementation uses (D9) CodeFlower.js: http://redotheweb.com/CodeFlower/
   
-###Example:
+####Example:
 
     The json file from scraping '''http://www.dal.ca/dept/its.htm''', is visualized as the screenshot below:
 
